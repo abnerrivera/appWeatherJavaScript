@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--enlace hoja de estilos-->
+    <link rel="stylesheet" href="assets/styles.css">
+    <!--enlace script de javascript-->
+    <script src="assets/app.js" defer></script> <!--defer hace que el script se ejecute despues de cargar el DomHTML-->
+    <!--icono en la pestaña de la web-->
+    <link rel="shortcut icon" href="ico/apple-icon-60x60.png" type="image/x-icon">
+
+    <title>APP WEATHER</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <!--temperatura-->
+        <div class="box1 card">
+            <h1 id="temp_value"></h1>
+            <h1 id="temp_desc"></h1>
+        </div>
+
+        <!--ubicacion-->
+        <div class="box2 card">
+            <h2 id="ubicacion"></h2>
+            <img src="" alt="" id="icon_animated" height="128" width="128">
+        </div>
+
+        <!--velocidad viento-->
+        <div class="box3 card">
+            <h3>Velocidad Viento</h3>
+            <h1 id="viento_velocidad"></h1>
+        </div>
+    </div>
+    
+</body>
+</html>
